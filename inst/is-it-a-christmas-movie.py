@@ -25,7 +25,7 @@ home_alone = wikipedia_by_month('Home_Alone')
 
 
 # %% Make a plot 🍿
-movies = pd.concat([wonderful_life, home_alone, die_hard])
+movies = pd.concat([wonderful_life, home_alone])
 movies = movies.groupby(['month', 'article'], as_index=False, observed=True)['views'].sum()
 sns.barplot(movies, x = 'views', y = 'month', hue = 'article')
 

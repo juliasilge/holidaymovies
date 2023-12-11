@@ -24,7 +24,6 @@ movie_home_alone <- function() {
 
 #' Clearly the best holiday movie: *Die Hard*
 #'
-#' @return A line from the best holiday movie of all time, *Die Hard*
 #' @export
 #'
 #' @examples

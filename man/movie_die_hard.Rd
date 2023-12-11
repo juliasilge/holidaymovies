@@ -6,9 +6,6 @@
 \usage{
 movie_die_hard()
 }
-\value{
-A line from the best holiday movie of all time, \emph{Die Hard}
-}
 \description{
 Clearly the best holiday movie: \emph{Die Hard}
 }
