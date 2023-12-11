@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# holidaymovies
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of holidaymovies is to help you argue with your family about what holiday movie to watch.
+
+## Installation
+
+You can install the development version of holidaymovies like so:
+
+``` r
+remotes::install_github("juliasilge/holidaymovies")
+```
+
+## Example
+
+Maybe you are a big fan of *It's a Wonderful Life*:
+
+```{r}
+library(holidaymovies)
+movie_wonderful_life()
+```
+
+Or maybe you prefer *Home Alone*:
+
+```{r}
+movie_home_alone()
+```
+
+Or maybe your tastes run more to *Die Hard*:
+
+```{r}
+movie_die_hard()
+```
