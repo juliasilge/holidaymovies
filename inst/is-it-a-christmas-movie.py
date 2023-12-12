@@ -7,7 +7,7 @@ headers = {'User-Agent': 'julia.silge@posit.co'}
 
 
 # %% Make my function 🛠️
-def wikipedia_by_month(wikipedia_page):
+def wikipedia_by_month(wikipedia_page: str):
     url = f'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/{wikipedia_page}/monthly/2018010100/2023123100'
     resp = requests.get(url, headers = headers)
     data = resp.json()
