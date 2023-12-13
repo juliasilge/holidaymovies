@@ -3,7 +3,6 @@ test_that("it is actually a wonderful life", {
 })
 
 test_that("a small child can defend their house", {
-  
 })
 
 test_that("terrorists can be defeated at Christmastime", {

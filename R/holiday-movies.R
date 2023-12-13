@@ -27,7 +27,7 @@ movie_home_alone <- function() {
 #' @export
 #'
 #' @examples
-#' movie_home_alone()
+#' movie_die_hard()
 #'
 movie_die_hard <- function() {
     "Yippee-ki-yay!"
